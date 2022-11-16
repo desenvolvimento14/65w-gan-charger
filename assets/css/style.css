@@ -1,0 +1,58 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+:root{
+    --background-notas: #ecedf1;
+    --background-yellon: #f9d230;
+    --tittle-yellow: #ffd300;
+    --title: #000000;
+    --title-white: #ffffff;
+    --tittle-gray: #5D5D5D;
+    --tittle-dark-red: #ff4e3b;
+    --tittle-green: #4CCDAF;
+    --tittle-blue: #33BCFF;
+    --text-white: #fff;
+    --paragraph:#000;
+    --paragraph-white: #fff;
+    --paragraph-01: #0000;
+    --paragraph-gray: #5D5D5D;
+    --paragraph-blue: #4C92FF;
+    --paragraph-yellow: #ffd300;
+    --blue-gradient: linear-gradient(0deg,#959fff,#3f94ff);
+    --green-gradient: linear-gradient(0deg,#81d8b0,#02bfae);
+    --red-gradient: linear-gradient(0deg,#ff7260,#ff210e);
+}
+
+@font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(../css/fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Thin; src: url(./fonts/CamphorProForXiaoMi-Thin.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Heavy; font-weight: 900; src: url(./fonts/CamphorProForXiaoMi-Heavy.woff) format("woff")}
+@font-face {font-family: CamphorProForXiaoMi-Medium; src: url(./fonts/CamphorProForXiaoMi-Medium.woff) format("woff")}
+
+.f-heavy {font-family: CamphorProForXiaoMi-Heavy, sans-serif; font-weight: 900}
+.f-regular {font-family: CamphorProForXiaoMi-Regular, sans-serif}
+.f-light {font-family: CamphorProForXiaoMi-Light, sans-serif}
+.f-bold {font-family: CamphorProForXiaoMi-Bold, sans-serif; font-weight: 700}
+.f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
+.f-thin {font-family: CamphorProForXiaoMi-Thin, sans-serif}
+
+@media screen and (min-width:1024px) {main{display: none;}}
+
+@media screen and (min-width:760px) and (max-width:1023px) {main{display: none;}}
+
+@media screen  and (max-width:768px) {
+
+    a:link {text-decoration: none;} 
+
+    .root-xiaomi-65w-gan-charger {overflow: hidden; width: 100%;}
+
+    .title_xiaomi-65w-gan-charger-01 {font-size: 3rem; color: var(--title); text-align: justify; margin: 4rem 1rem 0rem 1rem;}
+
+
+    /*==================================================== GRID ========================================================*/
+
+
+
+    /*======================================================= LAYOUT =======================================================*/
+
+    
+}
