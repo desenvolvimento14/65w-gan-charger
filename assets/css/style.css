@@ -60,6 +60,8 @@
 
     .text_xiaomi-65w-gan-charger-specs-01 {font-size: 0.7rem; color: var(--text-blue); text-align: center;}
     .text_xiaomi-65w-gan-charger-specs-02 {font-size: 0.7rem; color: var(--text-blue); text-align: center;}
+    .text_xiaomi-65w-gan-charger-specs-04 {font-size: 0.7rem; color: var(--text-blue); text-align: center; margin: 0.2rem;}
+
 
     .title_xiaomi-65w-gan-charger-04 {font-size: 1.5rem; color: var(--text-white); text-align: left; margin: 2rem 2rem 1rem 2rem;}
     .text_xiaomi-65w-gan-charger-05 {font-size: 1rem; color: var(--text-white); line-height: 1.5rem; text-align: left; margin: 0rem 2rem 1rem 2rem;}
@@ -192,6 +194,11 @@
         margin: 1rem 2rem 1rem 1rem;
         max-width: 6rem;
         line-height: 1.5rem;
+    }
+
+    .bg_06-02-1 {
+        margin: 1rem 2rem 1rem 1rem;
+        max-width: 6rem;
     }
 
     .bg_07 {
