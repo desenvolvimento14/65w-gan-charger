@@ -7,10 +7,12 @@
     --title: #000000;
     --title-white: #ffffff;
     --tittle-gray: #5D5D5D;
+    --sub-tittle-gray: #818181;
     --tittle-dark-red: #ff4e3b;
     --tittle-green: #4CCDAF;
     --tittle-blue: #33BCFF;
     --text-white: #fff;
+    --text-blue: #266ccd;
     --paragraph:#000;
     --paragraph-white: #fff;
     --paragraph-01: #0000;
@@ -45,14 +47,218 @@
 
     .root-xiaomi-65w-gan-charger {overflow: hidden; width: 100%;}
 
-    .title_xiaomi-65w-gan-charger-01 {font-size: 3rem; color: var(--title); text-align: justify; margin: 4rem 1rem 0rem 1rem;}
+    .main-title_xiaomi-65w-gan-charger-01 {font-size: 1.8rem; color: var(--title); text-align: left; margin: 4rem 2rem 0rem 2rem;}
+    .sub-title_xiaomi-65w-gan-charger-01 {font-size: 1rem; color: var(--title); line-height: 1.5rem; text-align: left; margin: 1rem 2rem 1rem 2rem;}
+    .sub-title_xiaomi-65w-gan-charger-02 {font-size: 0.8rem; color: var(--sub-tittle-gray); line-height: 1.5rem; text-align: left;}
+
+    .title_xiaomi-65w-gan-charger-01 {font-size: 1.5rem; color: var(--title); text-align: left; margin: 2rem 2rem 1rem 2rem;}
+    .text_xiaomi-65w-gan-charger-02 {font-size: 1rem; color: var(--title); line-height: 1.5rem; text-align: left; margin: 0rem 2rem 1rem 2rem;}
+    .text_xiaomi-65w-gan-charger-03 {font-size: 1rem; color: var(--text-blue); line-height: 1.5rem; text-align: center; margin: 0rem 2rem 1rem 2rem;}
+
+    .text_xiaomi-65w-gan-charger-65 {font-size: 4rem; color: var(--text-blue); line-height: 1.5rem; text-align: center;}
+    .text_xiaomi-65w-gan-charger-w {font-size: 1rem; color: var(--text-blue); line-height: 1.5rem; text-align: center;}
+
+    .text_xiaomi-65w-gan-charger-specs-01 {font-size: 0.7rem; color: var(--text-blue); text-align: center;}
+    .text_xiaomi-65w-gan-charger-specs-02 {font-size: 0.7rem; color: var(--text-blue); text-align: center;}
+
+    .title_xiaomi-65w-gan-charger-04 {font-size: 1.5rem; color: var(--text-white); text-align: left; margin: 2rem 2rem 1rem 2rem;}
+    .text_xiaomi-65w-gan-charger-05 {font-size: 1rem; color: var(--text-white); line-height: 1.5rem; text-align: left; margin: 0rem 2rem 1rem 2rem;}
+
+    .notes_xiaomi-65w-gan-charger {font-size: 0.8rem; line-height: 1.6rem; color: var(--tittle-gray); text-align: left; margin: 0.5rem 1rem 0rem 1rem; padding: 0rem 1rem 0rem 1rem;} 
+
+    .text_xiaomi-65w-gan-charger-specs-03 {font-size: 0.7rem; color: var(--text-blue); text-align: center; margin: 0.5rem;}
+
 
 
     /*==================================================== GRID ========================================================*/
 
+    #bg_01-grid {
+        display: grid;
+        align-items: end;
+        align-content: end;
+        height: 28rem;
+        margin: 1rem 5rem 1rem 2rem;
+    }
 
+    .bg_03-grid {
+        display: grid;
+        justify-content: center;    
+        justify-items: center;
+    }
+
+    .bg_03-grid_01 {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 2rem 0rem 1rem 0rem;
+    }
 
     /*======================================================= LAYOUT =======================================================*/
 
+    .bg_01 {
+        height: 42rem;
+        background-image: url(../media/Overview_M1080_01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_02 {
+        height: 12rem;
+        background-image: url(../media/Overview_M1080_02.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 1rem 3rem 1rem;
+    }
+
+    .bg_03 {
+        height: 30rem;
+        background-image: url(../media/Overview_M1080_03.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_04 {
+        height: 10rem;
+        background-image: url(../media/Overview_M1080_04.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0rem 2rem 0rem;
+    }
+
+    .bg_05 {
+        height: 42rem;
+        background-image: url(../media/Overview_M1080_05.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
     
+    .bg_06 {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 2rem;
+    }
+
+    .img-bg_06 {
+        height: 18rem;
+        max-width: 30rem;
+    }
+
+    .bg_06-text-01 {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 21rem;
+        margin: 1.9rem 0rem 1rem 0rem;
+        position: absolute;
+    }
+
+    .bg_06-text-02 {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 21rem;
+        margin: -8rem 0rem 1rem 0rem;
+        position: absolute;
+    }
+
+    .bg_06-01 {
+        margin: 1rem 7rem 1rem 1rem;
+        max-width: 6rem;
+    }
+
+    .bg_06-02 {
+        margin: 1rem 2rem 1rem 1rem;
+        max-width: 6rem;
+        line-height: 1.5rem;
+    }
+
+    .bg_07 {
+        height: 34rem;
+        background-image: url(../media/Overview_M1080_07.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_08 {
+        height: 30rem;
+        background-image: url(../media/Overview_M1080_08.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_09 {
+        height: 16rem;
+        background-image: url(../media/Overview_M1080_09.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 1rem 3rem 1rem;
+    }
+    
+    .bg_10 {
+        height: 54rem;
+        background-image: url(../media/Overview_M1080_10.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg_10-01 {
+        display: grid;
+        align-content: stretch;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img-bg_10 {
+        margin: 0rem;
+    }
+
+    .grid-bg_10-01 {
+        margin: 1rem;
+        display: grid;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+        max-width: 10rem;
+    }
+
+    .bg_11 {
+        margin: 4rem 0rem 0rem 0rem;
+    }
 }
